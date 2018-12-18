@@ -108,7 +108,7 @@ and test -n __done_get_focused_window_id  # is able to get window id
 					set urgency "--urgency=critical"
 				end
 				notify-send $urgency --icon=terminal --app-name=fish "$title" "$message"
-
+                                paplay /usr/share/sounds/freedesktop/stereo/complete.oga
 			else  # anything else
 				echo -e "\a" # bell sound
 			end
